@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B1120E41179EB55F00D9C57B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1120E40179EB55F00D9C57B /* UIKit.framework */; };
+		B1120E43179EB55F00D9C57B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1120E42179EB55F00D9C57B /* Foundation.framework */; };
+		B1120E45179EB55F00D9C57B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1120E44179EB55F00D9C57B /* CoreGraphics.framework */; };
+		B1120E4B179EB55F00D9C57B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B1120E49179EB55F00D9C57B /* InfoPlist.strings */; };
+		B1120E4D179EB55F00D9C57B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B1120E4C179EB55F00D9C57B /* main.m */; };
+		B1120E51179EB55F00D9C57B /* BRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1120E50179EB55F00D9C57B /* BRAppDelegate.m */; };
+		B1120E53179EB55F00D9C57B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B1120E52179EB55F00D9C57B /* Default.png */; };
+		B1120E55179EB55F00D9C57B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B1120E54179EB55F00D9C57B /* Default@2x.png */; };
+		B1120E57179EB55F00D9C57B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B1120E56179EB55F00D9C57B /* Default-568h@2x.png */; };
+		B1120E60179EB5DC00D9C57B /* PullDownButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B1120E5F179EB5DC00D9C57B /* PullDownButton.m */; };
+		B1120E64179EB5EF00D9C57B /* BRMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1120E62179EB5EF00D9C57B /* BRMainViewController.m */; };
+		B1120E65179EB5EF00D9C57B /* BRMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1120E63179EB5EF00D9C57B /* BRMainViewController.xib */; };
+		B189ED80179EB94A00E66B4A /* PullDownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = B189ED7F179EB94A00E66B4A /* PullDownMenu.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B1120E3D179EB55F00D9C57B /* PullDownButtonSampleProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PullDownButtonSampleProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1120E40179EB55F00D9C57B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B1120E42179EB55F00D9C57B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B1120E44179EB55F00D9C57B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B1120E48179EB55F00D9C57B /* PullDownButtonSampleProject-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PullDownButtonSampleProject-Info.plist"; sourceTree = "<group>"; };
+		B1120E4A179EB55F00D9C57B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B1120E4C179EB55F00D9C57B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B1120E4E179EB55F00D9C57B /* PullDownButtonSampleProject-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PullDownButtonSampleProject-Prefix.pch"; sourceTree = "<group>"; };
+		B1120E4F179EB55F00D9C57B /* BRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRAppDelegate.h; sourceTree = "<group>"; };
+		B1120E50179EB55F00D9C57B /* BRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRAppDelegate.m; sourceTree = "<group>"; };
+		B1120E52179EB55F00D9C57B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B1120E54179EB55F00D9C57B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		B1120E56179EB55F00D9C57B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B1120E5E179EB5DC00D9C57B /* PullDownButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PullDownButton.h; sourceTree = "<group>"; };
+		B1120E5F179EB5DC00D9C57B /* PullDownButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PullDownButton.m; sourceTree = "<group>"; };
+		B1120E61179EB5EF00D9C57B /* BRMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRMainViewController.h; sourceTree = "<group>"; };
+		B1120E62179EB5EF00D9C57B /* BRMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRMainViewController.m; sourceTree = "<group>"; };
+		B1120E63179EB5EF00D9C57B /* BRMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BRMainViewController.xib; sourceTree = "<group>"; };
+		B189ED7E179EB94A00E66B4A /* PullDownMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PullDownMenu.h; sourceTree = "<group>"; };
+		B189ED7F179EB94A00E66B4A /* PullDownMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PullDownMenu.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1120E3A179EB55F00D9C57B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1120E41179EB55F00D9C57B /* UIKit.framework in Frameworks */,
+				B1120E43179EB55F00D9C57B /* Foundation.framework in Frameworks */,
+				B1120E45179EB55F00D9C57B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B1120E34179EB55F00D9C57B = {
+			isa = PBXGroup;
+			children = (
+				B1120E46179EB55F00D9C57B /* PullDownButtonSampleProject */,
+				B1120E3F179EB55F00D9C57B /* Frameworks */,
+				B1120E3E179EB55F00D9C57B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B1120E3E179EB55F00D9C57B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1120E3D179EB55F00D9C57B /* PullDownButtonSampleProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1120E3F179EB55F00D9C57B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B1120E40179EB55F00D9C57B /* UIKit.framework */,
+				B1120E42179EB55F00D9C57B /* Foundation.framework */,
+				B1120E44179EB55F00D9C57B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B1120E46179EB55F00D9C57B /* PullDownButtonSampleProject */ = {
+			isa = PBXGroup;
+			children = (
+				B1120E5D179EB5DC00D9C57B /* PullDownButton */,
+				B1120E4F179EB55F00D9C57B /* BRAppDelegate.h */,
+				B1120E50179EB55F00D9C57B /* BRAppDelegate.m */,
+				B1120E61179EB5EF00D9C57B /* BRMainViewController.h */,
+				B1120E62179EB5EF00D9C57B /* BRMainViewController.m */,
+				B1120E63179EB5EF00D9C57B /* BRMainViewController.xib */,
+				B1120E47179EB55F00D9C57B /* Supporting Files */,
+			);
+			path = PullDownButtonSampleProject;
+			sourceTree = "<group>";
+		};
+		B1120E47179EB55F00D9C57B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B1120E48179EB55F00D9C57B /* PullDownButtonSampleProject-Info.plist */,
+				B1120E49179EB55F00D9C57B /* InfoPlist.strings */,
+				B1120E4C179EB55F00D9C57B /* main.m */,
+				B1120E4E179EB55F00D9C57B /* PullDownButtonSampleProject-Prefix.pch */,
+				B1120E52179EB55F00D9C57B /* Default.png */,
+				B1120E54179EB55F00D9C57B /* Default@2x.png */,
+				B1120E56179EB55F00D9C57B /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B1120E5D179EB5DC00D9C57B /* PullDownButton */ = {
+			isa = PBXGroup;
+			children = (
+				B1120E5E179EB5DC00D9C57B /* PullDownButton.h */,
+				B1120E5F179EB5DC00D9C57B /* PullDownButton.m */,
+				B189ED7E179EB94A00E66B4A /* PullDownMenu.h */,
+				B189ED7F179EB94A00E66B4A /* PullDownMenu.m */,
+			);
+			name = PullDownButton;
+			path = ../../PullDownButton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B1120E3C179EB55F00D9C57B /* PullDownButtonSampleProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1120E5A179EB55F00D9C57B /* Build configuration list for PBXNativeTarget "PullDownButtonSampleProject" */;
+			buildPhases = (
+				B1120E39179EB55F00D9C57B /* Sources */,
+				B1120E3A179EB55F00D9C57B /* Frameworks */,
+				B1120E3B179EB55F00D9C57B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PullDownButtonSampleProject;
+			productName = PullDownButtonSampleProject;
+			productReference = B1120E3D179EB55F00D9C57B /* PullDownButtonSampleProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1120E35179EB55F00D9C57B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BR;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Shingo Hashimoto";
+			};
+			buildConfigurationList = B1120E38179EB55F00D9C57B /* Build configuration list for PBXProject "PullDownButtonSampleProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B1120E34179EB55F00D9C57B;
+			productRefGroup = B1120E3E179EB55F00D9C57B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1120E3C179EB55F00D9C57B /* PullDownButtonSampleProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1120E3B179EB55F00D9C57B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1120E4B179EB55F00D9C57B /* InfoPlist.strings in Resources */,
+				B1120E53179EB55F00D9C57B /* Default.png in Resources */,
+				B1120E55179EB55F00D9C57B /* Default@2x.png in Resources */,
+				B1120E57179EB55F00D9C57B /* Default-568h@2x.png in Resources */,
+				B1120E65179EB5EF00D9C57B /* BRMainViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1120E39179EB55F00D9C57B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1120E4D179EB55F00D9C57B /* main.m in Sources */,
+				B1120E51179EB55F00D9C57B /* BRAppDelegate.m in Sources */,
+				B1120E60179EB5DC00D9C57B /* PullDownButton.m in Sources */,
+				B1120E64179EB5EF00D9C57B /* BRMainViewController.m in Sources */,
+				B189ED80179EB94A00E66B4A /* PullDownMenu.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B1120E49179EB55F00D9C57B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1120E4A179EB55F00D9C57B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B1120E58179EB55F00D9C57B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B1120E59179EB55F00D9C57B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B1120E5B179EB55F00D9C57B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PullDownButtonSampleProject/PullDownButtonSampleProject-Prefix.pch";
+				INFOPLIST_FILE = "PullDownButtonSampleProject/PullDownButtonSampleProject-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B1120E5C179EB55F00D9C57B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PullDownButtonSampleProject/PullDownButtonSampleProject-Prefix.pch";
+				INFOPLIST_FILE = "PullDownButtonSampleProject/PullDownButtonSampleProject-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B1120E38179EB55F00D9C57B /* Build configuration list for PBXProject "PullDownButtonSampleProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1120E58179EB55F00D9C57B /* Debug */,
+				B1120E59179EB55F00D9C57B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1120E5A179EB55F00D9C57B /* Build configuration list for PBXNativeTarget "PullDownButtonSampleProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1120E5B179EB55F00D9C57B /* Debug */,
+				B1120E5C179EB55F00D9C57B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B1120E35179EB55F00D9C57B /* Project object */;
+}
